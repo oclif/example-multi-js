@@ -18,7 +18,7 @@
     "cli-ux": "^3.3.9"
   },
   "devDependencies": {
-    "@anycli/test": "^0.9.20",
+    "@anycli/test": "^0.10.0",
     "@commitlint/cli": "^6.0.2",
     "@commitlint/config-conventional": "^6.0.2",
     "chai": "^4.1.2",
