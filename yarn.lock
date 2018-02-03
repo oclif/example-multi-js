@@ -12,6 +12,18 @@
     lodash "^4.17.4"
     tslib "^1.9.0"
 
+"@anycli/command@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-1.0.0.tgz#afb5dcae9dd4b2c269f8b155eb4f6b0fe4f3aa11"
+  dependencies:
+    "@anycli/parser" "^3.1.1"
+    cli-ux "^3.3.13"
+    debug "^3.1.0"
+    fs-extra "^5.0.0"
+    load-json-file "^4.0.0"
+    lodash "^4.17.4"
+    tslib "^1.9.0"
+
 "@anycli/config@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@anycli/config/-/config-0.3.0.tgz#a0938488e7afc507d69ec13a8e52c71aaecc08ea"
@@ -62,6 +74,14 @@
 "@anycli/parser@^3.0.4":
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@anycli/parser/-/parser-3.0.4.tgz#8714c4f73134625fe3781b9e2b5aa0ebb5685a82"
+  dependencies:
+    "@anycli/screen" "^0.0.3"
+    chalk "^2.3.0"
+    lodash "^4.17.4"
+
+"@anycli/parser@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@anycli/parser/-/parser-3.1.1.tgz#efd8e6750edbbfe4787947151af77583d53e2c69"
   dependencies:
     "@anycli/screen" "^0.0.3"
     chalk "^2.3.0"
